@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+     <template id="report_saleorder_document_moh" inherit_id="sale.report_saleorder_document">
+
+         <xpath expr="//t/t[4]" position="replace">
+            <!-- Add your image here with the specified path -->
+            <img src="/jt_order_line_product_images/static/description/ffb.png" alt="Your Image Alt Text" style="max-width: 100%;"/>
+        </xpath>
+     </template>
+
+</odoo>
